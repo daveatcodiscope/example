@@ -87,7 +87,7 @@ padding-left: 15px;
 color: #ffffff;
 font-size: 16px;
 text-decoration: none;
-font-family: 'Open Sans Condensed';
+font-family: 'Montserrat';
 font-weight: bold;
 }
 
@@ -127,7 +127,7 @@ float: left;
 }
 
 .opening {
- font-family: 'Gibson', serif;
+ font-family: 'Montserrat', serif;
  font-weight: 500;
  font-size: 36px;
  display: block;
@@ -181,7 +181,7 @@ float: left;
 }
 
 .tileHeader {
-font-family: Gibson;
+font-family: Montserrat;
 font-size: 48px;
 font-weight: 600;
 color: #10938c;
@@ -321,7 +321,7 @@ float: right;
 position:relative;
 margin-top: 15px;
 margin-right: 20px;
-font-family:"Gibson"; font-weight: normal;
+font-family:"Montserrat"; font-weight: normal;
 font-size: 18px; text-decoration: none;
 color: #000000;
 }
@@ -338,7 +338,7 @@ padding-left: 30px;
 }
 
 .menu a {
-font-family:"Gibson"; font-weight: normal;
+font-family:"Montserrat"; font-weight: normal;
 text-shadow:0px 1px 0px rgba(0,0,0,0.5);
 color: #000000;
 transition:color linear 0.15s;
@@ -359,7 +359,7 @@ opacity:0.8;
 display:inline-block;
 float: right;
 position:relative;
-font-family:"Open Sans Condensed"; font-weight: bold;
+font-family:"Montserrat"; font-weight: bold;
 font-size: 30px;
 color: #ffffff;
 }
