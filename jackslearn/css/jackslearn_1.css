@@ -1,20 +1,3 @@
-Skip to content
-
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @davidmichaelfinnerty Sign out
-1
-0 0 davidmichaelfinnerty/example
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
-example/jackslearn/css/jackslearn.css
-fe057c5  2 hours ago
-@davidmichaelfinnerty davidmichaelfinnerty Gibson to Montserrat
-
-413 lines (341 sloc)  5.71 KB
 html, body {
 margin: 0;
 padding: 0;
@@ -80,15 +63,13 @@ float: left;
 /*----- NAV BAR -----*/
 
 #nav {
-  margin-top: 8px;
+  margin-top: 0px;
   margin-right: 27px;
   float: right;
 }
 
 #search {
 display: block;
-padding-top: 0px;
-width: 31px;
 float: left;
 }
 
@@ -136,7 +117,7 @@ margin-top: 50px;
 
 
 #openingpanel1{
-background:url('../img/teamwork.jpg') 100% 0 no-repeat fixed;
+background:url('../img/landscape-with-large-clouds.jpg') 100% 0 no-repeat fixed;
 color: #ffffff;
 width: 100%;
 float: left;
@@ -190,16 +171,15 @@ width: 100%;
 .container {
 margin: 0 auto;
 width: 1155px;
-padding: 10px 10px 10px 10px;
 }
 
 .tileContainer {
 float: left;
-margin-bottom: 15px;
+margin-bottom: 30px;
 }
 
 .tileHeader {
-font-family: Montserrat;
+font-family: 'Montserrat';
 font-size: 36px;
 font-weight: 600;
 color: #10938c;
@@ -282,42 +262,54 @@ margin-right: 14px;
 @media screen and (max-width: 1366px) {
 .container {
 width: 1155px;
-padding: 10px;
-}
 }
 
 @media screen and (max-width: 1024px) {
 .container {
 width: 923px;
-padding: 10px;
 }
+
+#openingpanel1{
+background:url('../img/landscape-with-large-clouds.jpg') 100% 0 no-repeat fixed;
+color: #ffffff;
+width: 100%;
+float: left;
+}
+
 }
 
 @media screen and (max-width: 768px) {
 .container {
 width: 694px;
-padding: 10px;
-}
 }
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 568px) {
 .container {
-width: 650px;
-padding: 0 0 0 75px ;
+width: 568px;
 }
 
-.tileHeader {
-font-size: 24px;
+#openingpanel1{
+background:url('../img/landscape-with-large-clouds.jpg') 100% 0 no-repeat fixed;
+color: #ffffff;
+width: 100%;
+float: left;
 }
-
 
 }
 
 @media screen and (max-width: 414px) {
 .container {
 width: 220px;
-padding: 10px;
 }
+
+#openingpanel1{
+background:url('../img/landscape-with-large-clouds.jpg') 100% 0 no-repeat fixed;
+color: #ffffff;
+height: 550px;
+width: 100%;
+float: left;
+}
+
 }
 
 /*= MEDIA QUERIES FOR NAV --*/
@@ -327,6 +319,7 @@ padding: 10px;
 .menu {
 float: right;
 position:relative;
+margin-top: 15px;
 margin-right: 20px;
 font-family:"Montserrat"; font-weight: normal;
 font-size: 18px; text-decoration: none;
@@ -342,7 +335,6 @@ margin: 0 auto;
 .menu li {
 float: left;
 padding-left: 30px;
-padding-top: 15px;
 }
 
 .menu a {
@@ -364,13 +356,13 @@ opacity:0.8;
 @media screen and (max-width: 800px) {
 
 .menu {
-display:inline-block;
-float: right;
-position:relative;
-font-family:"Montserrat"; font-weight: bold;
-font-size: 30px;
-color: #ffffff;
-}
+  display:inline-block;
+  float: right;
+  position:relative;
+  font-family:"Montserrat"; font-weight: bold;
+  font-size: 30px;
+  color: #ffffff;
+  }
 
 .menu ul.active {
   display:none;
@@ -418,16 +410,3 @@ padding-top: 8px;
 
 #nav {display:none;}
 #search {display:none;}
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
